@@ -4,7 +4,7 @@ frontend:
     preBuild:
       commands:
         - echo "testing" >>  test2.html
-        - aws s3 cp src/test.js s3://spad-stg/
+        - aws s3 cp src/test.ts s3://spad-stg/
     build:
       commands: []
   artifacts:
